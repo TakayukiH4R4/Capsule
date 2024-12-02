@@ -2,7 +2,7 @@ package jp.co.Capsule.action;
 
 public class Person {
 
-	public String name = null;
+	private String name = null;
 	private int age = 0;
 
 	public Person (String name, int age) {
