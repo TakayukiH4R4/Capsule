@@ -2,7 +2,7 @@ package jp.co.Capsule.action;
 
 public class Person {
 
-	private String name = null;
+	public String name = null;
 	private int age = 0;
 
 	public Person (String name, int age) {
@@ -19,6 +19,15 @@ public class Person {
 		this.name = name;
 	}
 
+	public int getAge() {
+		return this.age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 
 }
+
+
 
